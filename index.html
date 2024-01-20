@@ -12,10 +12,49 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet" />
 
+    <!-- Fontawesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
     <!-- Tailwind CSS link -->
     <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body class="font-manrope">
-    <h1>Tea House</h1>
+    <header class="container mx-auto">
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 class="text-7xl font-extrabold">
+              It's good <br />
+              tea time at The <br />
+              Tea House
+            </h1>
+            <p class="py-6">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button class="btn btn-primary">Explore More</button>
+          </div>
+          <div>
+            <img class="max-w-sm" src="./images/banner.png" />
+            <!-- Rating badge -->
+            <div
+              class="flex items-center gap-3 p-5 rounded-xl drop-shadow-lg bg-white w-64 -mt-20">
+              <i class="fa-solid fa-star text-[#FFF082] text-5xl"></i>
+              <div>
+                <h3 class="text-3xl font-extrabold text-[#1C1C1C]">5.00</h3>
+                <p>Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
   </body>
 </html>
