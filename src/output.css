@@ -8409,12 +8409,52 @@ details.collapse summary::-webkit-details-marker {
   top: -1.5rem;
 }
 
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
+.-left-12 {
+  left: -3rem;
+}
+
+.-left-20 {
+  left: -5rem;
+}
+
+.top-32 {
+  top: 8rem;
+}
+
+.top-28 {
+  top: 7rem;
+}
+
+.top-36 {
+  top: 9rem;
+}
+
 .isolate {
   isolation: isolate;
 }
 
 .isolation-auto {
   isolation: auto;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .row-span-2 {
@@ -8501,6 +8541,10 @@ details.collapse summary::-webkit-details-marker {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .box-border {
@@ -9502,6 +9546,10 @@ details.collapse summary::-webkit-details-marker {
   border-radius: 0.5rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -9568,6 +9616,10 @@ details.collapse summary::-webkit-details-marker {
   border-width: 1px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .border-x {
   border-left-width: 1px;
   border-right-width: 1px;
@@ -9624,6 +9676,11 @@ details.collapse summary::-webkit-details-marker {
 
 .border-none {
   border-style: none;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-\[\#5776391a\] {
@@ -9811,6 +9868,10 @@ details.collapse summary::-webkit-details-marker {
   padding: 2.5rem;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -9828,6 +9889,10 @@ details.collapse summary::-webkit-details-marker {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pr-24 {
+  padding-right: 6rem;
 }
 
 .text-left {
@@ -10015,6 +10080,11 @@ details.collapse summary::-webkit-details-marker {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#ff8637\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 134 55 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -10059,6 +10129,10 @@ details.collapse summary::-webkit-details-marker {
 .subpixel-antialiased {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
+}
+
+.opacity-40 {
+  opacity: 0.4;
 }
 
 .bg-blend-normal {
@@ -10482,6 +10556,14 @@ details.collapse summary::-webkit-details-marker {
 }
 
 @media (min-width: 1024px) {
+  .lg\:-left-20 {
+    left: -5rem;
+  }
+
+  .lg\:w-\[430px\] {
+    width: 430px;
+  }
+
   .lg\:max-w-3xl {
     max-width: 48rem;
   }
@@ -10502,6 +10584,10 @@ details.collapse summary::-webkit-details-marker {
   .lg\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .lg\:pr-24 {
+    padding-right: 6rem;
   }
 }
 
